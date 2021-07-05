@@ -6,4 +6,4 @@ WTForms==2.3.3
 Flask_Bcrypt==0.7.1
 Pillow==8.3.0
 secrets==1.0.2
-gunicorn
+gunicorn == 20.1.0
