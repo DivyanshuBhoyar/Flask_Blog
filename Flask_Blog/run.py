@@ -6,4 +6,5 @@ def getApp():
       return app
 
 if __name__ == '__main__':
-      app.run(debug= True, port=8000)
+      set_port = os.environ.get('PORT', 8000)
+      app.run(debug= True, port=set_port)
